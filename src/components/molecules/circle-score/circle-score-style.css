@@ -1,0 +1,22 @@
+.circle-score-component {
+    border-radius: 50%;
+    width: var(--circle-width);
+    height: var(--circle-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(var(--color-violet-blue) 4%,
+            var(--color-gradient-light-royal-blue) 60%,
+            transparent 98%);
+    height: 100px;
+    width: 100px;
+    box-sizing: content-box;
+}
+
+@media screen and (min-width: 768px) {
+    .circle-score-component {
+        height: 125px;
+        width: 125px;
+    }
+}

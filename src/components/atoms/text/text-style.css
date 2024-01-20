@@ -1,0 +1,43 @@
+.text-component>.text-light {
+    color: var(--color-neutral-light-lavender);
+}
+
+.text-component>.text-light-blue{
+    color: var(--color-gradient-light-state-blue);
+}
+
+.text-component>.text-white {
+    color: var(--color-neutral-white);
+}
+
+.text-component>.text-gray {
+    color: var(--color-neutral-dark-gray-blue);
+}
+
+.text-component>.text-orange {
+    color: var(--color-primary-light);
+}
+
+.text-component>.text-yellow {
+    color: var(--color-primary-orangey-yellow);
+}
+
+.text-component>.text-green {
+    color: var(--color-primary-green-teal);
+}
+
+.text-component>.text-blue {
+    color: var(--color-primary-cobalt-blue);
+}
+
+.text-component>.text-h1 {
+    font-size: 2rem;
+}
+
+.text-component>.text-h2 {
+    font-size: 1.25rem;
+}
+
+.text-component>.text-title {
+    text-transform: capitalize;
+}

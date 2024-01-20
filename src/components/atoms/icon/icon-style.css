@@ -1,0 +1,11 @@
+.icon-component>img {
+    height: 1rem;
+    width: auto;
+    display: inline-block;
+}
+
+.icon-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

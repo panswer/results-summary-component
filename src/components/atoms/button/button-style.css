@@ -1,0 +1,15 @@
+.button-component>button {
+    border: none;
+    background-color: transparent;
+    color: var(--color-neutral-white);
+    background-color: var(--color-neutral-dark-gray-blue);
+    border-radius: 18px;
+    width: 100%;
+    text-transform: capitalize;
+    padding: .8rem 0rem;
+    font-weight: var(--typography-font-weight-3);
+}
+
+.button-component>button:hover{
+    cursor: pointer;
+}

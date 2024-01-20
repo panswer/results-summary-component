@@ -1,0 +1,13 @@
+.result-body_component {
+    padding: 0 1.5rem;
+}
+
+.result-body_component,
+.result-body_component>.result {
+    padding-top: 1rem;
+}
+
+.result-body_component>.result>* {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}

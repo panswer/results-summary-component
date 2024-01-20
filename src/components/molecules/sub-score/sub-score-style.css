@@ -1,0 +1,28 @@
+.sub-score_component {
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+    height: 2.5rem;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.sub-score_component[datatype="reaction"] {
+    background-color: var(--color-primary-light-transparent);
+}
+
+.sub-score_component[datatype="memory"] {
+    background-color: var(--color-primary-orangey-yellow-transparent);
+}
+
+.sub-score_component[datatype="verbal"] {
+    background-color: var(--color-primary-green-teal-transparent);
+}
+
+.sub-score_component[datatype="visual"] {
+    background-color: var(--color-primary-cobalt-blue-transparent);
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+}

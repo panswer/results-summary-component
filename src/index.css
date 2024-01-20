@@ -1,13 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+html,
 body {
+  min-width: 375px;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-primary-light: hsl(0, 100%, 67%);
+  --color-primary-light-transparent: hsla(0, 100%, 67%, .1);
+  --color-primary-orangey-yellow: hsl(36, 100%, 56%);
+  --color-primary-orangey-yellow-transparent: hsla(36, 100%, 56%, .1);
+  --color-primary-green-teal: hsl(166, 100%, 56%);
+  --color-primary-green-teal-transparent: hsla(166, 100%, 56%, .1);
+  --color-primary-cobalt-blue: hsl(234, 85%, 45%);
+  --color-primary-cobalt-blue-transparent: hsla(234, 85%, 45%, .1);
+  --color-gradient-light-state-blue: hsl(252, 100%, 67%);
+  --color-gradient-light-royal-blue: hsl(241, 81%, 54%);
+  --color-violet-blue: hsla(256, 72%, 46%, 1);
+  --color-persian-blue: hsla(241, 72%, 46%, 0);
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-pale-blue: hsl(221, 100%, 96%);
+  --color-neutral-light-lavender: hsl(241, 100%, 89%);
+  --color-neutral-dark-gray-blue: hsl(224, 30%, 27%);
+  --color-neutral-dark-gray-blue-transparent: hsla(224, 30%, 27%, .5);
+  --typography-font-size: 18px;
+  --typography-font-weight-1: 500;
+  --typography-font-weight-2: 700;
+  --typography-font-weight-3: 800;
+
+  --circle-width: 100px;
+}
+
+* {
+  font-family: 'Hanken Grotesk', sans-serif;
 }
